@@ -1,0 +1,37 @@
+a, a:hover a:focus a:active {
+
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.banner {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+}
+
+.infoSection {
+
+
+    display: flex;
+    font-weight: 600;
+    background-color: fffff;
+    border-radius: 5%;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.footer {
+
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
