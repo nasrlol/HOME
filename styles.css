@@ -1,3 +1,13 @@
+html, body {
+
+    height: 100%;
+    width: 100%;
+    margin: 0;
+
+}
+
+
+
 a, a:hover a:focus a:active {
 
     text-decoration: none;
@@ -6,6 +16,7 @@ a, a:hover a:focus a:active {
 
 
 .banner {
+
     background-color: black;
     color: white;
     padding: 20px;
@@ -14,8 +25,7 @@ a, a:hover a:focus a:active {
 
 .infoSection {
 
-
-    display: flex;
+    display: flex ;
     font-weight: 600;
     background-color: fffff;
     border-radius: 5%;
@@ -24,14 +34,13 @@ a, a:hover a:focus a:active {
 
 }
 
-.footer {
+.bottom {
 
-    padding: 10px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
     text-align: center;
+    padding: 5px;
+    border-width: 20px;
+    border-color: black;
     background-color: black;
-    color: white;
+    color: aliceblue;
+    font-weight:400;
 }
